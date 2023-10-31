@@ -54,7 +54,7 @@ HOME="${HOME:-$(eval echo ~$USER)}"
 
 
 # Track if $ZSH was provided
-custom_zsh=${ZSH:+yes}
+custom_zsh=${ZSH:+no}
 
 # Use $zdot to keep track of where the directory is for zsh dotfiles
 # To check if $ZDOTDIR was provided, explicitly check for $ZDOTDIR
